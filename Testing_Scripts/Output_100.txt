@@ -1,0 +1,132 @@
+-*- mode: compilation; default-directory: "~/UTAS/Honours/Testing/Scripts/" -*-
+Compilation started at Tue Oct  6 14:52:54
+
+python main.py
+ADC centre: 127.076 codes
+ADC amplitude: 22.109 codes
+Calibration: 9.046051 mV/code
+full_scale_range: 2.307 V
+
+
+DC TEST: 100MSPS_0.0VDC.bin
+mean_V: -0.0004245471423202004
+std_V: 0.031834922697482324
+rms_V: 0.0318375105688749
+min_V: -0.12733649572577818
+max_V: 0.16213714779168473
+vpp_V: 0.2894736435174629
+
+NOISE FLOOR
+samples: 32768
+mean_squared_noise_V2: 0.0009924511516581852
+noise_rms_V: 0.03150319272166212
+
+DC TEST: 100MSPS_0.2VDC.bin
+mean_V: -0.0004659566791850718
+std_V: 0.019400272261836157
+rms_V: 0.019405719169904617
+min_V: -0.08210623892617461
+max_V: 0.10786083963216042
+vpp_V: 0.18996707855833503
+
+NOISE FLOOR
+samples: 32768
+mean_squared_noise_V2: 0.0003148727162440337
+noise_rms_V: 0.017744653173393774
+
+DC TEST: 100MSPS_0.4VDC.bin
+mean_V: -0.00045463807244200687
+std_V: 0.01777681090377355
+rms_V: 0.0177824880058759
+min_V: -0.0730601875662539
+max_V: 0.08072268555239827
+vpp_V: 0.15378287311865219
+
+NOISE FLOOR
+samples: 32768
+mean_squared_noise_V2: 0.0002547031238611859
+noise_rms_V: 0.015959421163099428
+
+SINAD
+NAD = 0.027262 V RMS
+SINAD = 28.43 dB
+ENOB = 4.61 bits
+harmonic 1 (1100000.0) amplitude = 16663.46122741801
+harmonic 2 (2200000.0) amplitude = 7.208558004461783
+harmonic 3 (3300000.0) amplitude = 6.060953904432363
+harmonic 4 (4400000.0) amplitude = 2.066264130184395
+harmonic 5 (5500000.0) amplitude = 3.001006941788947
+NAD: 0.027262495843424286
+RMS signal: 0.7194192398532325
+THD Ratio: 0.0006060094951776409
+Noise rms (eta) 0.027259009620815247
+SNR 26.391980114489446
+SNR (dB) 28.429439506208954
+
+THD
+THD = 0.061 %
+THD = -64.35 dB
+
+SNR
+SNR = 28.43 dB
+Saved PNG: /home/baley/UTAS/Honours/Testing/Images/100MSPS_1V_1.1M_FFT.png
+Saved PDF: /home/baley/UTAS/Honours/Testing/Images/100MSPS_1V_1.1M_FFT.pdf
+Saved FIG: /home/baley/UTAS/Honours/Testing/Images/100MSPS_1V_1.1M_FFT.fig
+
+STEP RESPONSE
+polarity: negative
+baseline_V: -0.0012870303157563332
+reference_50_V: -0.205
+peak_V: -0.4258561906031618
+peak_excursion_V: 0.4258561906031618
+peak_time_s: 3.011e-05
+t50_s: 3.009e-05
+settling_band_V: 0.008199999999999999
+settling_band_low_V: -0.008199999999999999
+settling_band_high_V: 0.008199999999999999
+settling_time_s: None
+settling_duration_s: None
+settling_error_ratio: None
+settling_error_percent: None
+peak_error_percent: 3.8673635617467923
+overshoot_ratio: 0.03867363561746792
+overshoot_percent: 3.8673635617467923
+Saved PNG: /home/baley/UTAS/Honours/Testing/Images/100MSPS_step_response.png
+Saved PDF: /home/baley/UTAS/Honours/Testing/Images/100MSPS_step_response.pdf
+Saved FIG: /home/baley/UTAS/Honours/Testing/Images/100MSPS_step_response.fig
+
+FREQUENCY RESPONSE
+Reference gain = 1.0000
+-3 dB bandwidth = 0.055 MHz
+   0.001 MHz 0.0031 V -36.29 dB
+   0.002 MHz 0.0125 V -24.10 dB
+   0.005 MHz 0.0594 V -10.55 dB
+   0.010 MHz 0.1267 V -3.96 dB
+   0.020 MHz 0.1721 V -1.30 dB
+   0.050 MHz 0.1512 V -2.43 dB
+   0.060 MHz 0.1334 V -3.51 dB
+   0.075 MHz 0.1067 V -5.46 dB
+   0.080 MHz 0.1004 V -5.98 dB
+   0.090 MHz 0.0831 V -7.63 dB
+   0.100 MHz 0.0642 V -9.87 dB
+   0.105 MHz 0.0586 V -10.66 dB
+   0.125 MHz 0.0309 V -16.22 dB
+   0.140 MHz 0.0148 V -22.60 dB
+   0.150 MHz 0.0154 V -22.25 dB
+   0.160 MHz 0.0230 V -18.80 dB
+   0.175 MHz 0.0355 V -15.02 dB
+   0.190 MHz 0.0486 V -12.29 dB
+   0.200 MHz 0.0566 V -10.96 dB
+   0.225 MHz 0.0749 V -8.53 dB
+   0.250 MHz 0.0906 V -6.87 dB
+   0.275 MHz 0.1052 V -5.58 dB
+   0.500 MHz 0.1658 V -1.63 dB
+   1.000 MHz 0.2000 V +0.00 dB
+   2.000 MHz 0.2095 V +0.40 dB
+   5.000 MHz 0.2131 V +0.55 dB
+  10.000 MHz 0.2103 V +0.44 dB
+  20.000 MHz 0.1920 V -0.35 dB
+Saved PNG: /home/baley/UTAS/Honours/Testing/Images/100MSPS_frequency_response.png
+Saved PDF: /home/baley/UTAS/Honours/Testing/Images/100MSPS_frequency_response.pdf
+Saved FIG: /home/baley/UTAS/Honours/Testing/Images/100MSPS_frequency_response.fig
+Found 59 files
